@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Roboto', monospace;
+}
+.wrapper{
+    background: white;
+    border-radius: 20px;
+    width: 765px;
+    padding-top: 55px;
+    box-shadow: 0px 0px 44px rgba(148, 146, 120, 0.23);
+}
+.tip-amount{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 35px;
+}
+.total-per-person{
+    padding-bottom: 35px;
+}
+.tip-amount,
+.total-per-person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 35px;
+}
+.tip-amount .dollars,
+.total-per-person .dollars{
+    font-size: 5rem;
+}
+.tip-amount sup,
+.total-per-person sup {
+    font-size: 3rem;
+}
+.dollars{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.input-fields{
+    background: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    padding: 0 35px;
+}
+.bill-amount{
+    border-right: 2px so #dedede;
+    padding: 65px 45px 45px;
+    width: 70%;
+}
+.number-of-people{
+    padding: 65px 45px 45px;
+    width: 30%;
+}
+input[type="text"] {
+    text-align: center;
+    font-size: 3.875rem;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 3px dotted #b3b3b3;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.bill-amount input[type="text"] {
+    background: url(./images/dollar.svg) 15px no-repeat;
+    padding-left: 40px;
+}
