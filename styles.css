@@ -78,3 +78,60 @@ input[type="text"] {
     background: url(./images/dollar.svg) 15px no-repeat;
     padding-left: 40px;
 }
+.number-of-people input[type="text"] {
+    background: url(./images/people.svg) left 20px no-repeat;
+    padding-left: 40px;
+    text-align: right;
+}
+.bill-amount .label,
+.number-of-people .label{
+    text-align: center;
+}
+.tip-percentages{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background: #eeee;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] +label {
+background: white;
+box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #60c1b6;
+font-family: "Roboto" monospace;
+width: 135px;
+height: 65px;
+font-size: 1.5rem;
+cursor: pointer;
+}
+input[type="radio"]::checkmark + label {
+background: #60c1b6;
+color: white;
+}
+.button-wrapper{
+    text-align: right;
+    padding: 30px 35px;
+}
+button{
+    background: #Ed7861;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto" monospace;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
