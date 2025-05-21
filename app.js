@@ -46,7 +46,7 @@ calculateButton.addEventListener('click', function(){
 
 
 const formatPrice = (price) => {
-    // console.log(price)
+    console.log(price)
     let retVal = price.toString();
     const parts = retVal.split('.');
     console.log(parts)
